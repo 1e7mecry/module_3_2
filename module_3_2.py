@@ -1,5 +1,4 @@
 def send_email(massage, recipient, sender="university.help@gmail.com"):
-    domains = [".com", ".ru", ".net"]
     check_progression = True
     while True:
         if "@" not in sender or "@" not in recipient:
